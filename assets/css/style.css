@@ -1,0 +1,76 @@
+
+
+.subtitle {
+    width: 75%;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(11, 48, 11);
+    color: white;
+}
+
+section.container {
+    min-height: 200px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.title {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+.logo {
+    margin: 20px;
+    
+}
+
+.intro {
+    color: rgb(49, 133, 49);
+    font-size: large;
+    width: 100%;
+}
+
+.screenshot {
+    max-width: 200px;
+}
+
+.vid {
+    max-width: 250px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    align-items: center;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    align-items: center;
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    align-items: center;
+}
