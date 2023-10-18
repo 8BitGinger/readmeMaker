@@ -1,12 +1,16 @@
-
+body {
+    font-family: 'Rajdhani';
+}
 
 .subtitle {
-    width: 75%;
+    width: 70%;
     color: white;
+    border-radius: 10px;
+
 }
 
 .navbar {
-    background-color: rgb(11, 48, 11);
+    background-color: rgb(1, 92, 1);
     color: white;
 }
 
@@ -17,7 +21,8 @@ section.container {
 .top {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    flex-direction: row;
+    width: 80%;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -25,26 +30,50 @@ section.container {
 }
 
 .title {
-    width: 100%;
-    color: rgb(255, 255, 255);
+    
+    border-radius: 10px;
+    color: rgb(1, 92, 1);
     text-align: center;
-}
-
-
-
-.logo {
-    margin: 20px;
+    border-radius: 10px;
+    font-family: 'borel';
+    padding-top: 10px;
+    
     
 }
 
+
+.navbar-brand {
+    font-family: 'borel';
+    padding-top: 22px;
+    padding-bottom: 42px;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.logo {
+    margin: 20px;
+    max-width: 270px;
+
+}
+
+
+.nav a {
+    font-size: larger;
+    
+   
+}
+
 .intro {
-    color: rgb(49, 133, 49);
-    font-size: large;
+    color: rgb(7, 60, 7);
+    font-size: 25px;
     width: 100%;
+    font-weight: 800;
 }
 
 .screenshot {
     max-width: 200px;
+    margin: 15px;
 }
 
 .vid {
@@ -73,4 +102,54 @@ section.container {
     margin: auto;
 
     align-items: center;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: 'dela gothic one';
+    font-weight: 100;
+    color: rgb(49, 133, 49);
+}
+
+.link {
+    font-size: 25px;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.code {
+    font-size: medium;
+   font-family: 'press start 2p';
+    color: rgb(19, 229, 33);
+    background-color: rgb(49, 48, 48);
+    padding: 8px;
+    line-height: 3;
+    border-radius: 8px;
+}
+
+.red {
+    font-size: large;
+    background-color: rgb(180, 35, 35);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-top:3px;
+    border-radius: 8px;
+    line-height: 2;
+    margin-left: 5px;
+}
+
+.make-big {
+    font-size: 100px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
 }

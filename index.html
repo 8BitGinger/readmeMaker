@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan's ReadMe Maker</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Dela+Gothic+One&family=Press+Start+2P&family=Rajdhani&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    <link rel="stylesheet" href="./assets/css/style.css"></link>
@@ -21,7 +27,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>                        
                 </button>
-                <a class="navbar-brand" href="#readMe">Ryan's ReadMe Maker</a>
+                <a class="navbar-brand" href="#readMe"> <i class="fa-brands fa-readme"></i> ReadMe Maker</a>
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -39,21 +45,37 @@
     <main class="col">
 
         <section class="container top">
-            <h1 class=" title mark" id="readMe" style="background-color:rgb(96, 171, 96)"> ReadMe Maker </h1>
+            <h1 class=" title" id="readMe"> <i class="fa-brands fa-readme make-big" ></i>  <br>ReadMe Maker </h1>
             <img class="logo" src="./assets/images/node.png">
             <div class="text-center intro">
-                <p> This is a simple App using Node.js to create a basic ReadMe file for Projects</p>
-            </div>
+              
+              <p> This is a simple App using Node.js to create a basic ReadMe file for Projects</p>
+          </div>
         </section>
 
         <section class="container how">
             <h2 id="howTo" class="mark subtitle" style="background-color:rgb(96, 171, 96)">How to Use!</h2>
-            <p> Paragraph explaining how to clone repo <br> Program steps <br> Program Results</p>
+            <ul>
+              <li class="paragraph"> 1 - Start by Cloning the Repo</li>
+                <ul>
+                  <li><a href="https://github.com/8BitGinger/readmeMaker" target="_blank" class="link">VIEW REPO</a></li>
+                </ul>
+              <li class="paragraph">Open the Repo using VS Code</li>
+              <li class="paragraph">Right-Click the file   <br><span class="red"> index.js</span> <br> and Open in Integrated Terminal  </li>
+              <li class="paragraph">Type the following in the terminal: <br> <span class="code">node index.js </span><br> and press Enter</li>
+              <li class="paragraph">Follow the Prompts</li>
+              <li class="paragraph">Your personalized ReadMe will be saved as: <br> <span class="red">newREADME.md</span></li>
+          </ul>
         </section>
 
         <section class="container pic">
-          <h2 id="howTo" class="mark subtitle" style="background-color:rgb(96, 171, 96)">Screenshot</h2>
-          <img id="screenshot" class="screenshot" src="./assets/images/Placeholder Image.png">
+          <h2 id="howTo" class="mark subtitle" style="background-color:rgb(96, 171, 96)">Screenshots</h2>
+          <div class="row">
+            <img id="screenshot" alt="screenshot-demo" class="screenshot" src="./assets/images/Placeholder Image.png">
+            <img id="screenshot" alt="screenshot-readMe" class="screenshot" src="./assets/images/Placeholder Image.png">
+          </div>
+        
+
         </section>
 
         <section id="video" class="container video">
@@ -66,9 +88,8 @@
     </main>
     
     <footer class="footer">
-        <a href="/index.html" alt="Home" class="btn btn-home">
-            <button> Home Button </button>
-        </a>
+     
+    
         </footer>
         
 
