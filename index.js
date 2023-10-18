@@ -93,16 +93,16 @@ inquirer
 ])
 
 //TODO: Create a function to write README file
-.then((response) => {
-    fileName = "newREADME.md";
-    fs.writeFile(fileName, JSON.stringify(response, null), (err) => 
-    err ? console.log(err) : console.log("success!")
-    );
-}
-);
+// .then((response) => {
+//     fileName = "newREADME.md";
+//     fs.writeFile(fileName, JSON.stringify(response, null), (err) => 
+//     err ? console.log(err) : console.log("success!")
+//     );
+// }
+// );
 // TODO: Create a function to initialize app
 function init() {
-
+    generateMarkdown();
 }
 
 // Function call to initialize app
