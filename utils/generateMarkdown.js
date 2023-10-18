@@ -34,8 +34,9 @@ function generateMarkdown(data) {
           ---
 
           ## Installation
-          to clone the repo:
-            git clone ${data.repo}
+
+          Clone the Repo here:
+            git clone ${data.clone}
 
           ---
 
@@ -50,7 +51,7 @@ function generateMarkdown(data) {
           ---
 
           ## Screenshot
-          ![screenshot](${data.screenshot})
+          ![screenshot](./assets/images/${data.screenshot})
 
           ---
 
@@ -64,15 +65,19 @@ function generateMarkdown(data) {
 
           ---
 
-          ## Badges
-          ${data.badges}
-
-          ---
-
           ## Tests
           ${data.tests}
 
           ---
+
+          ## Links
+          Repo Link: ${data.repo}
+          Live Link: ${data.live}
+
+          ---
+
+          ## Contact Me
+          ${data.email}
 
 
 `;
