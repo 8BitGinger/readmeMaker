@@ -4,11 +4,11 @@ const fs = require("fs");
 const util = require("util");
 const badges = require("badge-maker");
 
-const generateMarkdown = require("./utils/generateMarkdown");
+const template = require("./utils/template");
+
 
 // TODO: Create an array of questions for user input
-inquirer
-    .prompt([
+const questions = [
     {
     type: "input",
     name: "title",
@@ -19,6 +19,12 @@ inquirer
     type: "input",
     message: "Enter a description of your project:",
     name: "description",
+    },
+
+    {
+    type: "input",
+    message: "Enter installation Instructions:",
+    name: "installation",
     },
 
     {
@@ -90,20 +96,39 @@ inquirer
     },
 
 
-])
+];
 
-//TODO: Create a function to write README file
-// .then((response) => {
-//     fileName = "newREADME.md";
-//     fs.writeFile(fileName, JSON.stringify(response, null), (err) => 
-//     err ? console.log(err) : console.log("success!")
-//     );
-// }
-// );
-// TODO: Create a function to initialize app
+// function generateReadMe(answers) {
+//     // Generate the README file
+//     const readme = template(answers);
+  
+//     // Write the README file to disk
+//     const fs = require('fs');
+//     fs.writeFileSync('README.md', readme);
+//   };
+
+
+
+// TODO: Create a function to write README file
 function init() {
-    generateMarkdown();
-}
+    inquirer.prompt(questions).then(answers => {
+        readme = template(answers);
+       fs.writeFile("readMeTest.md", readme, (err) => { 
+        if (err) 
+          console.log(err); 
+        else { 
+          console.log("File written successfully\n"); 
+          console.log("The written has the following contents:"); 
+          console.log(fs.readFileSync("readMeTest.md", "utf8")); 
+        } 
+    })
 
-// Function call to initialize app
+    })
+};
+
+
+
+
+
+// TODO: Create a function to initialize app
 init();

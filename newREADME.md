@@ -1,1 +1,0 @@
-{"title":"test","description":"test","repo":"test","clone":"test","license":"GNU AGPLv3","live":"test","contributing":"test","screenshot":"test","credits":"test","tests":"test","email":"test"}

@@ -1,6 +1,9 @@
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderlicenseBadge(value) {
+const value = '${answers.license}';
+
+function licenseBadge(value) {
   if (value === "GNU AGPLv3") {
     return "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
   } else if (value === "GNU GPLv3") {
@@ -14,10 +17,13 @@ function renderlicenseBadge(value) {
   } else if (value === "Apache") {
     return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
   } else {
-    return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+    return " ";
   }
+
 }
-return(license);
+
+console.log(licenseBadge(value));
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -30,77 +36,75 @@ return(license);
 // }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+const template = (answers)=> {
+  return `
+# ${answers.title}
 
-          ## Description
-          ${data.description}
-
-          ---
-
-          ## Table of Contents
-        1. [Installation](#Installation)
-        2. [Usage](#Usage)
-        3. [Contributing](#Contributing)
-        4. [Screenshot](#Screenshot)
-        5. [Credits](#Credits)
-        6. [License](#License)
-        7. [Badges](#Badges)
-        8. [Tests](#Tests)
-      
+## Description
+${answers.description}
 
 
-          ---
 
-          ## Installation
+## Table of Contents
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Contributing](#Contributing)
+4. [Screenshot](#Screenshot)
+5. [Credits](#Credits)
+6. [License](#License)
+7. [Badges](#Badges)
+8. [Tests](#Tests)
 
-          Clone the Repo here:
-            git clone ${data.clone}
-
-          ---
-
-          ## Usage
-          ${data.usage}
-
-          ---
-
-          ## Contributing
-          ${data.contributing}
-
-          ---
-
-          ## Screenshot
-          ![screenshot](./assets/images/${data.screenshot})
-
-          ---
-
-          ## Credits
-          ${data.credits}
-
-          ---
-
-          ## Badges
-          ${license}
-
-          ---
-
-          ## Tests
-          ${data.tests}
-
-          ---
-
-          ## Links
-          Repo Link: ${data.repo}
-          Live Link: ${data.live}
-
-          ---
-
-          ## Contact Me
-          ${data.email}
+---
 
 
-`;
-}
+## Installation
+${answers.installation}
 
 
-module.exports = generateMarkdown;
+
+## Usage
+${answers.usage}
+
+
+
+## Contributing
+${answers.contributing}
+
+
+
+## Screenshot
+![screenshot](./assets/images/${answers.screenshot})
+
+---
+
+## Credits
+${answers.credits}
+
+
+## Badges
+[${answers.license}]
+
+
+
+## Tests
+${answers.tests}
+
+
+
+## Links
+Repo Link: ${answers.repo}
+Live Link: ${answers.live}
+Clone Link: ${answers.clone}
+
+
+
+## Contact Me
+${answers.email}
+
+
+`};
+
+
+
+module.exports = template;
