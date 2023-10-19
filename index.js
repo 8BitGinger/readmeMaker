@@ -29,8 +29,8 @@ const questions = [
 
     {
     type: "input",
-    message: "Enter the URL of your Repo",
-    name: "repo",
+    message: "List Installation Code (Anything entered here will display in Code Block):",
+    name: "code",
     },
 
     {
@@ -38,6 +38,19 @@ const questions = [
     message: "Enter the Link to Clone your Repo",
     name: "clone",
      },
+
+    {
+    type: "input",
+    message: "Enter the URL of your Repo",
+    name: "repo",
+    },
+
+     
+   {
+    type: "input",
+    name: "live",
+    message: "What is the URL of the Deployed site?",
+    },
 
      {
     type: "list",
@@ -51,12 +64,6 @@ const questions = [
       "MIT",
       "Apache",
     ],
-   },
-
-   {
-    type: "input",
-    name: "live",
-    message: "What is the URL of the Deployed site?",
     },
 
     {

@@ -1,43 +1,26 @@
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-const value = '${answers.license}';
-
-function licenseBadge(value) {
-  if (value === "GNU AGPLv3") {
-    return "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
-  } else if (value === "GNU GPLv3") {
-    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-  } else if (value === "GNU LGPLv3") {
-    return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
-  } else if (value === "Mozilla") {
-    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
-  } else if (value === "MIT") {
-    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-  } else if (value === "Apache") {
-    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-  } else {
-    return " ";
-  }
-
-}
-
-console.log(licenseBadge(value));
+// TODO: Create a function that returns a value badge based on which value is passed in
+// If there is no value, return an empty string
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-//function renderLicenseLink(license) {}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {
+// TODO: Create a function that returns the value link
+// If there is no value, return an empty string
+//function rendervalueLink(value) {}
+
+// TODO: Create a function that returns the value section of README
+// If there is no value, return an empty string
+// function rendervalueSection(value) {
 //   return ``
 // }
 
 // TODO: Create a function to generate markdown for README
 const template = (answers)=> {
+
+  
   return `
+
+
 # ${answers.title}
 
 ## Description
@@ -46,60 +29,68 @@ ${answers.description}
 
 
 ## Table of Contents
-1. [Installation](#Installation)
-2. [Usage](#Usage)
-3. [Contributing](#Contributing)
-4. [Screenshot](#Screenshot)
-5. [Credits](#Credits)
-6. [License](#License)
-7. [Badges](#Badges)
-8. [Tests](#Tests)
+1. [Usage](#usage)
+2. [Installation](#installation)
+3. [Contributing](#contributing)
+4. [Screenshot](#screenshot)
+5. [Credits](#credits)
+6. [License(#license)
+7. [Tests](#tests)
+8. [Links](#links)
+9. [Support](#support)
 
 ---
 
-
-## Installation
+<a id="usage"></a>
+## Usage
 ${answers.installation}
 
+<a id="installation"></a>
+\`\`\`
+${answers.code}
+\`\`\`
 
+---
 
-## Usage
-${answers.usage}
-
-
-
+<a id="contributing"></a>
 ## Contributing
 ${answers.contributing}
 
 
-
+<a id="screenshot"></a>
 ## Screenshot
 ![screenshot](./assets/images/${answers.screenshot})
 
 ---
 
+<a id="credits"></a>
 ## Credits
 ${answers.credits}
 
 
-## Badges
-[${answers.license}]
+<a id="license"></a>
+## License
+[${answers.license}](url)
 
 
-
+<a id="tests"></a>
 ## Tests
 ${answers.tests}
 
 
+<a id="links"></a>
+##Links
+### Repo Link:
+ ${answers.repo}
+### Deployed Link:
+${answers.live}
+### Clone Link:
+${answers.clone}
 
-## Links
-Repo Link: ${answers.repo}
-Live Link: ${answers.live}
-Clone Link: ${answers.clone}
 
-
-
-## Contact Me
+<a id="support"></a>
+## Support
+Reach out for Questions or Support here:
 ${answers.email}
 
 
