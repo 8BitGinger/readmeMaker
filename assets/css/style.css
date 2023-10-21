@@ -85,7 +85,14 @@ section.container {
 
 .vid {
     max-width: 600px;
-    margin-top: 0;
+    margin: 25px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.vid:hover {
+    box-shadow: 0 0 5px 5px rgb(34, 128, 0);
+
 }
 
 .media {

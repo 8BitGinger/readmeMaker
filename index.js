@@ -116,7 +116,7 @@ function init() {
           console.log(err); 
         else { 
           console.log("File written successfully\n"); 
-          console.log("The written has the following contents:"); 
+          console.log("The written File has the following contents:"); 
           console.log(fs.readFileSync("readMeNew.md", "utf8")); 
         } 
     })

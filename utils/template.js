@@ -40,11 +40,10 @@ ${answers.description}
 2. [Installation Code](#installation)
 3. [Contributing](#contributing)
 4. [Screenshot](#screenshot)
-5. [Credits](#credits)
-6. [License](#license)
-7. [Tests](#tests)
-8. [Links](#links)
-9. [Questions](#support)
+5. [License](#license)
+6. [Tests](#tests)
+7. [Links](#links)
+8. [Questions](#support)
 
 ---
 
