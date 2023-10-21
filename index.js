@@ -111,7 +111,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then(answers => {
         readme = template(answers);
-       fs.writeFile("readMeTest.md", readme, (err) => { 
+       fs.writeFile("readMeNew.md", readme, (err) => { 
         if (err) 
           console.log(err); 
         else { 
