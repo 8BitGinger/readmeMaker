@@ -3,10 +3,10 @@
 
 
 
-# Ryan's ReadMe Maker
+# Title
 
 ## Description
-A simple node.js App designed to create a basic ReadMe Document
+Description
 
 
 
@@ -24,23 +24,23 @@ A simple node.js App designed to create a basic ReadMe Document
 
 <a id="usage"></a>
 ## Usage
-Download the Clone Repo listed in the Links section below.  Then type the following command in the terminal:
+Install INstructions
 
 <a id="installation"></a>
 ```
-node index.js
+code here
 ```
 
 ---
 
 <a id="contributing"></a>
 ## Contributing
-Me!
+Contributers
 
 
 <a id="screenshot"></a>
 ## Screenshot
-![screenshot](./assets/images/screenshot-readMe.png)
+![screenshot](./assets/images/node.png)
 
 ---
 
@@ -52,22 +52,22 @@ Me!
 
 <a id="tests"></a>
 ## Tests
-none
+Tests Done
 
 
 <a id="links"></a>
 ## Links
 ### Repo Link:
- https://github.com/8BitGinger/readmeMaker
+ Repo URL
 ### Deployed Link:
-https://8bitginger.github.io/readmeMaker/
+Live URL
 ### Clone Link:
-https://github.com/8BitGinger/readmeMaker.git
+Clone URL
 
 
 <a id="support"></a>
 ## Questions
 Reach out for Questions or Support here:
-### ryan.fann@gmail.com
+### email@email.com
 
 
