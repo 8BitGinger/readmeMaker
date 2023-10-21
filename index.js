@@ -111,13 +111,13 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then(answers => {
         readme = template(answers);
-       fs.writeFile("readMeNew.md", readme, (err) => { 
+       fs.writeFile("newREADME.md", readme, (err) => { 
         if (err) 
           console.log(err); 
         else { 
           console.log("File written successfully\n"); 
           console.log("The written File has the following contents:"); 
-          console.log(fs.readFileSync("readMeNew.md", "utf8")); 
+          console.log(fs.readFileSync("newREADME.md", "utf8")); 
         } 
     })
 
