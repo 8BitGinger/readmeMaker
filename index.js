@@ -4,7 +4,10 @@ const fs = require("fs");
 const util = require("util");
 const badges = require("badge-maker");
 
+
+const license = require("./utils/license")
 const template = require("./utils/template");
+
 
 
 // TODO: Create an array of questions for user input
@@ -17,7 +20,7 @@ const questions = [
 
     {
     type: "input",
-    message: "Enter a description of your project:",
+    message: "Enter a short description of your project:",
     name: "description",
     },
 
@@ -35,13 +38,13 @@ const questions = [
 
     {
     type: "input",
-    message: "Enter the Link to Clone your Repo",
+    message: "Enter the URL to Clone your Repo:",
     name: "clone",
      },
 
     {
     type: "input",
-    message: "Enter the URL of your Repo",
+    message: "Enter the URL to your Repo:",
     name: "repo",
     },
 
@@ -49,13 +52,13 @@ const questions = [
    {
     type: "input",
     name: "live",
-    message: "What is the URL of the Deployed site?",
+    message: "Enter the URL of the Deployed site:",
     },
 
      {
     type: "list",
-    name: "license",
-    message: "Please select the license you used.",
+    name: "licensetype",
+    message: "Please select the your License.",
     choices: [
       "GNU AGPLv3",
       "GNU GPLv3",
@@ -67,12 +70,6 @@ const questions = [
     },
 
     {
-    type: "input",
-    name: "repo",
-    message: "Enter the URL for your Repo:"
-    },
-
-    {
         type: "input",
         name: "contributing",
         message: "Who contributed to the Project?",
@@ -81,13 +78,7 @@ const questions = [
     {
         type: "input",
         name: "screenshot",
-        message: "What is the File Name for the Screenshot?",
-    },
-
-    {
-        type: "input",
-        name: "credits",
-        message: "Any Credits you need to list?",
+        message: "What is the File Name for the Screenshot? (file must be nested under assets/images/FILENAME)",
     },
 
     {
@@ -99,7 +90,7 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "What is a good contact email?",
+        message: "Enter Email Address for others to reach you:",
     },
 
 
@@ -126,11 +117,12 @@ function init() {
         else { 
           console.log("File written successfully\n"); 
           console.log("The written has the following contents:"); 
-          console.log(fs.readFileSync("readMeTest.md", "utf8")); 
+          console.log(fs.readFileSync("readMeNew.md", "utf8")); 
         } 
     })
 
     })
+    
 };
 
 

@@ -1,6 +1,13 @@
 
 // TODO: Create a function that returns a value badge based on which value is passed in
 // If there is no value, return an empty string
+// const badges = (answers)=> {
+//   let badgeText = answers.license;
+ //Check this syntax because it doesn't seem to like this.  
+//   if (badgeText) === "MIT",
+//   let  newBadge = "[![Inquirer](https://badge.ttsalpha.com/api?icon=nodedotjs&label=Inquirer&status=v.8.2.4&color=red)](https://example.com)"
+  
+//}
 
 
 
@@ -16,9 +23,9 @@
 
 // TODO: Create a function to generate markdown for README
 const template = (answers)=> {
-
-  
   return `
+<a id="badges"></a>
+
 
 
 # ${answers.title}
@@ -30,14 +37,14 @@ ${answers.description}
 
 ## Table of Contents
 1. [Usage](#usage)
-2. [Installation](#installation)
+2. [Installation Code](#installation)
 3. [Contributing](#contributing)
 4. [Screenshot](#screenshot)
 5. [Credits](#credits)
-6. [License(#license)
+6. [License](#license)
 7. [Tests](#tests)
 8. [Links](#links)
-9. [Support](#support)
+9. [Questions](#support)
 
 ---
 
@@ -63,14 +70,10 @@ ${answers.contributing}
 
 ---
 
-<a id="credits"></a>
-## Credits
-${answers.credits}
-
 
 <a id="license"></a>
 ## License
-[${answers.license}](url)
+[${answers.licensetype}](url)
 
 
 <a id="tests"></a>
@@ -79,7 +82,7 @@ ${answers.tests}
 
 
 <a id="links"></a>
-##Links
+## Links
 ### Repo Link:
  ${answers.repo}
 ### Deployed Link:
@@ -89,9 +92,9 @@ ${answers.clone}
 
 
 <a id="support"></a>
-## Support
+## Questions
 Reach out for Questions or Support here:
-${answers.email}
+### ${answers.email}
 
 
 `};
