@@ -93,8 +93,10 @@ ${answers.clone}
 <a id="support"></a>
 ## Questions
 Reach out for Questions or Support here:
-### ${answers.email}
-
+### Email: 
+${answers.email}
+### GitHub Username: 
+${answers.github}
 
 `};
 

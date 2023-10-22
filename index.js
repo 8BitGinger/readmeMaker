@@ -93,6 +93,12 @@ const questions = [
         message: "Enter Email Address for others to reach you:",
     },
 
+    {
+        type: "input",
+        name: "github",
+        message: "Finally let's Enter your Github Username:",
+    },
+
 
 ];
 
