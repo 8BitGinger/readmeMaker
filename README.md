@@ -1,16 +1,12 @@
 
 <a id="badges"></a>
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-
-
-
-# Ryan's ReadMe Maker
+# ReadMe Maker
 
 ## Description
-A simple node.js app designed to create a basic ReadMe File
+A simple node.js app designed to create a high quality ReadMe
 
 
 
@@ -28,7 +24,7 @@ A simple node.js app designed to create a basic ReadMe File
 
 <a id="usage"></a>
 ## Usage
-Download the Repo from the Clone Repo Link under the Links section.  Then you will type the following code in your terminal:
+Download and Clone the Repo from the Clone Link in the Links Section.  Then run the following code:
 
 <a id="installation"></a>
 ```
@@ -39,7 +35,7 @@ node index.js
 
 <a id="contributing"></a>
 ## Contributing
-Me!
+N/A
 
 
 <a id="screenshot"></a>
@@ -68,12 +64,15 @@ https://8bitginger.github.io/readmeMaker/
 ### Clone Link:
 https://github.com/8BitGinger/readmeMaker.git
 ### ScreenCastify Link:
-https://drive.google.com/file/d/1-EvfkbGNGNalCFxoyt1twsEHTUPsgX64/view
+https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view
+
+
 
 <a id="support"></a>
 ## Questions
 Reach out for Questions or Support here:
-### ryan.fann@gmail.com
-
-Created using this Project!
+### Email: 
+ryan.fann@gmail.com
+### GitHub Username: 
+8BitGinger
 
