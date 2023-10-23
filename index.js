@@ -5,7 +5,7 @@ const util = require("util");
 const badges = require("badge-maker");
 
 
-const license = require("./utils/license")
+const licenseBadge = require("./utils/license").licenseBadge;
 const template = require("./utils/template");
 
 
@@ -57,7 +57,7 @@ const questions = [
 
      {
     type: "list",
-    name: "licensetype",
+    name: "license",
     message: "Please select the your License.",
     choices: [
       "GNU AGPLv3",
@@ -116,6 +116,7 @@ const questions = [
 // TODO: Create a function to write README file
 function init() {
     inquirer.prompt(questions).then(answers => {
+        answers.licenseBadge = licenseBadge(answers.license);
         readme = template(answers);
        fs.writeFile("newREADME.md", readme, (err) => { 
         if (err) 

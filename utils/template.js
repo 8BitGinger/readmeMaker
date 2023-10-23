@@ -25,7 +25,7 @@
 const template = (answers)=> {
   return `
 <a id="badges"></a>
-
+${answers.licenseBadge}
 
 
 # ${answers.title}
@@ -72,7 +72,7 @@ ${answers.contributing}
 
 <a id="license"></a>
 ## License
-[${answers.licensetype}](url)
+[${answers.license}](url)
 
 
 <a id="tests"></a>
