@@ -95,8 +95,8 @@ ${answers.clone}
 Reach out for Questions or Support here:
 ### Email: 
 ${answers.email}
-### GitHub Username: 
-${answers.github}
+#### GitHub Username: 
+[${answers.github}](${answers.gitprofile})
 
 `};
 

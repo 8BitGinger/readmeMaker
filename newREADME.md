@@ -3,10 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-# ReadMe Maker
+# Student Portfolio
 
 ## Description
-A simple node.js app designed to generate a high-quality ReadMe document.
+A project to create a landing page to display current and past projects to prospective employers, other developers, and others.
 
 
 
@@ -24,11 +24,11 @@ A simple node.js app designed to generate a high-quality ReadMe document.
 
 <a id="usage"></a>
 ## Usage
-Download and Clone the Repo from the Clone Link below in the Links Section.  Then run the following command in the Terminal:
+None
 
 <a id="installation"></a>
 ```
-node index.js
+none
 ```
 
 ---
@@ -40,7 +40,7 @@ N/A
 
 <a id="screenshot"></a>
 ## Screenshot
-![screenshot](./assets/images/screenshot-readMe.png)
+![screenshot](./assets/images/live-screenshot-student-profile.jpg)
 
 ---
 
@@ -52,19 +52,17 @@ N/A
 
 <a id="tests"></a>
 ## Tests
-None
+N/A
 
 
 <a id="links"></a>
 ## Links
 ### Repo Link:
- https://github.com/8BitGinger/readmeMaker
+ https://github.com/8BitGinger/studentPortfolio/
 ### Deployed Link:
-https://8bitginger.github.io/readmeMaker/
+https://8bitginger.github.io/studentPortfolio/
 ### Clone Link:
-https://github.com/8BitGinger/readmeMaker.git
-### ScreenCastify Link:
-https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view
+N/A
 
 
 <a id="support"></a>
@@ -72,6 +70,6 @@ https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view
 Reach out for Questions or Support here:
 ### Email: 
 ryan.fann@gmail.com
-### GitHub Username: 
+#### GitHub Username: 
 [8BitGinger](https://github.com/8BitGinger)
 

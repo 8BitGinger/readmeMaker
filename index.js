@@ -55,6 +55,12 @@ const questions = [
     message: "Enter the URL of the Deployed site:",
     },
 
+    {
+        type:"input",
+        name: "gitprofile",
+        message:"Enter URL of GitHub Profile"
+    },
+
      {
     type: "list",
     name: "license",
