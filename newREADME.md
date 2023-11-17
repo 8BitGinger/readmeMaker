@@ -3,10 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-# Student Portfolio
+# 8BitGinger
 
 ## Description
-A project to create a landing page to display current and past projects to prospective employers, other developers, and others.
+An up and coming developer with skills in JavaScript, jQuery, HTML5, CSS, MySQL, Sequalize, Insomnia, Postman, MySQL Workbench, and Inquirer.  
 
 
 
@@ -28,19 +28,19 @@ None
 
 <a id="installation"></a>
 ```
-none
+var Ryan = "A great hire!"
 ```
 
 ---
 
 <a id="contributing"></a>
 ## Contributing
-N/A
+Me!
 
 
 <a id="screenshot"></a>
 ## Screenshot
-![screenshot](./assets/images/live-screenshot-student-profile.jpg)
+![screenshot](./assets/images/headshot.png)
 
 ---
 
@@ -52,17 +52,17 @@ N/A
 
 <a id="tests"></a>
 ## Tests
-N/A
+delete
 
 
 <a id="links"></a>
 ## Links
 ### Repo Link:
- https://github.com/8BitGinger/studentPortfolio/
+ delete
 ### Deployed Link:
 https://8bitginger.github.io/studentPortfolio/
 ### Clone Link:
-N/A
+delete
 
 
 <a id="support"></a>
