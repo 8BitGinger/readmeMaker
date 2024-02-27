@@ -1,179 +1,246 @@
 body {
-    font-family: 'Rajdhani';
+  font-family: 'Rajdhani';
+  margin-top: 80px;
 }
 
 .subtitle {
-    width: 100%;
-    color: white;
-    border-radius: 10px;
-
+  width: 100%;
+  color: white;
+  border-radius: 10px;
 }
 
 .navbar {
-    background-color: rgb(1, 92, 1);
-    color: white;
+  background-color: rgb(1, 92, 1);
+  color: white;
 }
 
 section.container {
-    min-height: 200px;
+  min-height: 200px;
 }
 
 .top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .title {
-    
-    border-radius: 10px;
-    color: rgb(1, 92, 1);
-    text-align: center;
-    border-radius: 10px;
-    font-family: 'borel';
-    padding-top: 10px;
-    
-    
+  border-radius: 10px;
+  color: rgb(1, 92, 1);
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'borel';
+  padding-top: 10px;
 }
 
-
 .navbar-brand {
-    font-family: 'borel';
-    padding-top: 22px;
-    padding-bottom: 42px;
-    padding-left: 30px;
-    font-weight: 600;
-    font-size: x-large;
+  font-family: 'borel';
+  padding-top: 22px;
+  padding-bottom: 42px;
+  padding-left: 30px;
+  font-weight: 600;
+  font-size: x-large;
 }
 
 .logo {
-    margin: 20px;
-    max-width: 270px;
-
+  margin: 20px;
+  max-width: 270px;
 }
 
-
 .nav a {
-    font-size: larger;
-    
-   
+  font-size: larger;
 }
 
 .intro {
-    color: rgb(7, 60, 7);
-    font-size: 25px;
-    width: 100%;
-    font-weight: 800;
+  color: rgb(7, 60, 7);
+  font-size: 25px;
+  width: 100%;
+  font-weight: 800;
 }
 
 .screenshot {
-    max-width: 400px;
-    margin: 15px;
-    border-radius: 5px;
+  max-width: 400px;
+  margin: 15px;
+  border-radius: 5px;
 }
 
 .screenshot:hover {
-    scale: 1.5;
-    transition: ease-in .5s;
-    box-shadow: 5px 5px 10px white;
+  scale: 1.5;
+  transition: ease-in 0.5s;
+  box-shadow: 5px 5px 10px white;
 }
 
 .vid {
-    max-width: 600px;
-    margin: 25px;
-    margin-bottom: 50px;
-    border-radius: 5px;
+  max-width: 600px;
+  margin: 25px;
+  margin-bottom: 50px;
+  border-radius: 5px;
 }
 
 .vid:hover {
-    box-shadow: 0 0 5px 5px rgb(34, 128, 0);
-
+  box-shadow: 0 0 5px 5px rgb(34, 128, 0);
 }
 
 .media {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .credit {
-    color: maroon;
-    margin-top: 20px;
+  color: maroon;
+  margin-top: 20px;
 }
 
 .video {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 
-    align-items: center;
+  align-items: center;
 }
 
 .pic {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 
-    align-items: center;
+  align-items: center;
 }
 
 .how {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 
-    align-items: center;
+  align-items: center;
 }
 
 .paragraph {
-    font-size: 20px;
-    font-family: 'dela gothic one';
-    font-weight: 100;
-    color: rgb(49, 133, 49);
+  font-size: 20px;
+  font-family: 'dela gothic one';
+  font-weight: 100;
+  color: rgb(49, 133, 49);
 }
 
 .link {
-    font-size: 25px;
-    
+  font-size: 25px;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .code {
-    font-size: medium;
-   font-family: 'press start 2p';
-    color: rgb(19, 229, 33);
-    background-color: rgb(49, 48, 48);
-    padding: 8px;
-    line-height: 3;
-    border-radius: 8px;
+  font-size: medium;
+  font-family: 'press start 2p';
+  color: rgb(19, 229, 33);
+  background-color: rgb(49, 48, 48);
+  padding: 8px;
+  line-height: 3;
+  border-radius: 8px;
 }
 
 .red {
-    font-size: large;
-    background-color: rgb(180, 35, 35);
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    padding-top:3px;
-    border-radius: 8px;
-    line-height: 2;
-    margin-left: 5px;
+  font-size: large;
+  background-color: rgb(180, 35, 35);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  padding-top: 3px;
+  border-radius: 8px;
+  line-height: 2;
+  margin-left: 5px;
 }
 
 .make-big {
-    font-size: 100px;
+  font-size: 100px;
 }
 
-.footer {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+footer {
+  position: fixed;
+  bottom: 0;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: fit-content;
+  }
+  .top {
+    width: 100%;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+
+  .vid {
+    max-width: 300px;
+  }
+
+  .screenshot {
+    max-width: 300px;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: large;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .intro {
+    font-size: 20px;
+  }
+
+  .paragraph {
+    font-size: 15px;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+
+  .code {
+    font-size: 15px;
+  }
+
+  .red {
+    font-size: 15px;
+  }
+
+  .make-big {
+    font-size: 50px;
+  }
+
+  .container-top {
+    width: 100%;
+  }
+
+  .row {
     flex-direction: column;
-    margin: auto;
+  }
+
+  .video {
+    height: 350px;
+  }
 }

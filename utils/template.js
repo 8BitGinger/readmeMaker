@@ -1,28 +1,5 @@
-
-// TODO: Create a function that returns a value badge based on which value is passed in
-// If there is no value, return an empty string
-// const badges = (answers)=> {
-//   let badgeText = answers.license;
- //Check this syntax because it doesn't seem to like this.  
-//   if (badgeText) === "MIT",
-//   let  newBadge = "[![Inquirer](https://badge.ttsalpha.com/api?icon=nodedotjs&label=Inquirer&status=v.8.2.4&color=red)](https://example.com)"
-  
-//}
-
-
-
-// TODO: Create a function that returns the value link
-// If there is no value, return an empty string
-//function rendervalueLink(value) {}
-
-// TODO: Create a function that returns the value section of README
-// If there is no value, return an empty string
-// function rendervalueSection(value) {
-//   return ``
-// }
-
 // TODO: Create a function to generate markdown for README
-const template = (answers)=> {
+const template = (answers) => {
   return `
 <a id="badges"></a>
 ${answers.licenseBadge}
@@ -74,21 +51,30 @@ ${answers.contributing}
 ## License
 [${answers.license}](url)
 
+---
+
 
 <a id="tests"></a>
 ## Tests
 ${answers.tests}
 
+---
+
 
 <a id="links"></a>
 ## Links
-### Repo Link:
- ${answers.repo}
-### Deployed Link:
-${answers.live}
-### Clone Link:
-${answers.clone}
 
+<div align="center">
+
+### [Repo Link](${answers.repo})
+
+### [Deployed Link](${answers.live})
+
+### [Clone Link](${answers.clone})
+
+</div>
+
+---
 
 <a id="support"></a>
 ## Questions
@@ -98,8 +84,7 @@ ${answers.email}
 #### GitHub Username: 
 [${answers.github}](${answers.gitprofile})
 
-`};
-
-
+`;
+};
 
 module.exports = template;

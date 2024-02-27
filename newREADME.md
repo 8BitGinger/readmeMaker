@@ -1,12 +1,12 @@
 
 <a id="badges"></a>
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 
-# 8BitGinger
+# Test ReadMe
 
 ## Description
-An up and coming developer with skills in JavaScript, jQuery, HTML5, CSS, MySQL, Sequalize, Insomnia, Postman, MySQL Workbench, and Inquirer.  
+This is a simple test of the ReadMe changes
 
 
 
@@ -24,11 +24,11 @@ An up and coming developer with skills in JavaScript, jQuery, HTML5, CSS, MySQL,
 
 <a id="usage"></a>
 ## Usage
-None
+Clone Repo, Navigate to folder in terminal and enter the following code:
 
 <a id="installation"></a>
 ```
-var Ryan = "A great hire!"
+npm run start
 ```
 
 ---
@@ -40,30 +40,35 @@ Me!
 
 <a id="screenshot"></a>
 ## Screenshot
-![screenshot](./assets/images/headshot.png)
+![screenshot](./assets/images/node.png)
 
 ---
 
 
 <a id="license"></a>
 ## License
-[MIT](url)
+[Mozilla](url)
+
+---
 
 
 <a id="tests"></a>
 ## Tests
-delete
+none
+
+---
 
 
 <a id="links"></a>
 ## Links
-### Repo Link:
- delete
-### Deployed Link:
-https://8bitginger.github.io/studentPortfolio/
-### Clone Link:
-delete
 
+### [Repo Link](https://google.com)
+
+### [Deployed Link](https://google.com)
+
+### [Clone Link](https://google.com)
+
+---
 
 <a id="support"></a>
 ## Questions
@@ -71,5 +76,5 @@ Reach out for Questions or Support here:
 ### Email: 
 ryan.fann@gmail.com
 #### GitHub Username: 
-[8BitGinger](https://github.com/8BitGinger)
+[8BitGinger](https://google.com)
 
