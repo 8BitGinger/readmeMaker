@@ -11,7 +11,7 @@ ${answers.licenseBadge}
 
 ${answers.description}
 
-
+---
 
 ## Table of Contents
 
