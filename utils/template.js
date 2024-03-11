@@ -14,13 +14,13 @@ ${answers.description}
 
 ## Table of Contents
 1. [Usage](#usage)
-2. [Installation Code](#installation)
-3. [Contributing](#contributing)
-4. [Screenshot](#screenshot)
-5. [License](#license)
-6. [Tests](#tests)
-7. [Links](#links)
-8. [Questions](#support)
+1. [Installation Code](#installation)
+1. [Contributing](#contributing)
+1. [Screenshot](#screenshot)
+1. [License](#license)
+1. [Tests](#tests)
+1. [Links](#links)
+1. [Questions](#support)
 
 ---
 

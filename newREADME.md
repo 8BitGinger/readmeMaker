@@ -1,12 +1,12 @@
 
 <a id="badges"></a>
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-# Test ReadMe
+# Password Generator
 
 ## Description
-This is a simple test of the ReadMe changes
+A simple app designed to generate a random pass word  using JavaScript, For Loops, and Dom Manipulation.
 
 
 
@@ -24,30 +24,30 @@ This is a simple test of the ReadMe changes
 
 <a id="usage"></a>
 ## Usage
-Clone Repo, Navigate to folder in terminal and enter the following code:
+Visit Deployed Page.  Select paramaters.  Copy your new password!
 
 <a id="installation"></a>
 ```
-npm run start
+none
 ```
 
 ---
 
 <a id="contributing"></a>
 ## Contributing
-Me!
+
 
 
 <a id="screenshot"></a>
 ## Screenshot
-![screenshot](./assets/images/node.png)
+![screenshot](./assets/images/screenshot-psgen)
 
 ---
 
 
 <a id="license"></a>
 ## License
-[Mozilla](url)
+[MIT](url)
 
 ---
 
@@ -62,11 +62,15 @@ none
 <a id="links"></a>
 ## Links
 
-### [Repo Link](https://google.com)
+<div align="center">
 
-### [Deployed Link](https://google.com)
+### [Repo Link](https://github.com/8BitGinger/passwordGenerator)
 
-### [Clone Link](https://google.com)
+### [Deployed Link](https://8bitginger.github.io/passwordGenerator/)
+
+### [Clone Link](none)
+
+</div>
 
 ---
 
@@ -76,5 +80,5 @@ Reach out for Questions or Support here:
 ### Email: 
 ryan.fann@gmail.com
 #### GitHub Username: 
-[8BitGinger](https://google.com)
+[8BitGinger](https://github.com/8BitGinger)
 
