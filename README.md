@@ -109,13 +109,13 @@ _none_
 
 <div align="center">
 
-### [Repo Link](https://github.com/8BitGinger/readmeMaker)
+### [Clone](https://github.com/8BitGinger/readmeMaker.git)
 
-### [Deployed Link](https://8bitginger.github.io/readmeMaker/)
+### [Repo](https://github.com/8BitGinger/readmeMaker)
 
-### [Clone Link](https://github.com/8BitGinger/readmeMaker.git)
+### [Deployed](https://8bitginger.github.io/readmeMaker/)
 
-### [ScreenCastify Link](https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view)
+### [Video Walkthrough](https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view)
 
 ### [Portfolio](https://ryanfann.netlify.app/)
 
