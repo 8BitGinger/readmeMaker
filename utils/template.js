@@ -8,11 +8,13 @@ ${answers.licenseBadge}
 # ${answers.title}
 
 ## Description
+
 ${answers.description}
 
 
 
 ## Table of Contents
+
 1. [Usage](#usage)
 1. [Installation Code](#installation)
 1. [Contributing](#contributing)
@@ -26,6 +28,7 @@ ${answers.description}
 
 <a id="usage"></a>
 ## Usage
+
 ${answers.installation}
 
 <a id="installation"></a>
@@ -37,11 +40,13 @@ ${answers.code}
 
 <a id="contributing"></a>
 ## Contributing
+
 ${answers.contributing}
 
 
 <a id="screenshot"></a>
 ## Screenshot
+
 ![screenshot](./assets/images/${answers.screenshot})
 
 ---
@@ -49,6 +54,7 @@ ${answers.contributing}
 
 <a id="license"></a>
 ## License
+
 [${answers.license}](url)
 
 ---
@@ -56,6 +62,7 @@ ${answers.contributing}
 
 <a id="tests"></a>
 ## Tests
+
 ${answers.tests}
 
 ---
