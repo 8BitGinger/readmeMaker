@@ -224,6 +224,15 @@ header {
     max-width: 150px;
   }
 
+  .logo2 {
+    max-width: 80px;
+  }
+
+  ul,
+  li {
+    margin-left: -15px;
+  }
+
   .vid {
     max-width: 300px;
   }
@@ -253,6 +262,7 @@ header {
 
   .link {
     font-size: 20px;
+    margin-left: -25px;
   }
 
   .code {
@@ -277,5 +287,9 @@ header {
 
   .video {
     height: 350px;
+  }
+
+  .footer {
+    position: relative;
   }
 }
