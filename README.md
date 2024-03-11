@@ -117,7 +117,7 @@ _none_
 
 ### [ScreenCastify Link](https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view)
 
-### [Portfolio]([https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view](https://ryanfann.netlify.app/))
+### [Portfolio]([https://drive.google.com/file/d/1mFlXQgKBNRDyWnkb5Hzv2XnH3eXIEaG-/view](https://ryanfann.netlify.app/)
 
 </div>
 
