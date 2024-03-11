@@ -9,6 +9,15 @@ body {
   border-radius: 10px;
 }
 
+.link-li {
+  list-style: none;
+}
+
+.intro p {
+  width: 80%;
+  margin: auto;
+}
+
 .navbar {
   background-color: rgb(1, 92, 1);
   color: white;
@@ -54,6 +63,10 @@ section.container {
 
 .nav a {
   font-size: larger;
+}
+
+.nav li {
+  margin-top: 10px;
 }
 
 .intro {
@@ -115,8 +128,12 @@ section.container {
   display: flex;
   flex-direction: column;
   margin: auto;
-
+  text-align: center;
   align-items: center;
+}
+
+li {
+  list-style: none;
 }
 
 .paragraph {
@@ -124,6 +141,10 @@ section.container {
   font-family: 'dela gothic one';
   font-weight: 100;
   color: rgb(49, 133, 49);
+}
+
+.paragraph li {
+  list-style: none;
 }
 
 .link {

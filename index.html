@@ -1,102 +1,167 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan's ReadMe Maker</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Dela+Gothic+One&family=Press+Start+2P&family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Dela+Gothic+One&family=Press+Start+2P&family=Rajdhani&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    <link rel="stylesheet" href="./assets/css/style.css"></link>
-    
-</head>
-<body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <header>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
 
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>                        
-                </button>
-                <a class="navbar-brand" href="#readMe"> <i class="fa-brands fa-readme"></i> ReadMe Maker</a>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-
-                  <li><a href="#howTo">How to Use</a></li>
-                  <li><a href="#screenshot">Screenshot</a></li>
-                  <li><a href="#video">Video Demo</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+            <a class="navbar-brand" href="#readMe">
+              <i class="fa-brands fa-readme"></i> ReadMe Maker</a
+            >
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#howTo">How to Use</a></li>
+              <li><a href="#screenshot">Screenshot</a></li>
+              <li><a href="#video">Video Demo</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
     <main class="col">
+      <section class="container top">
+        <h1 class="title" id="readMe">
+          <i class="fa-brands fa-readme make-big"></i> <br />ReadMe Maker
+        </h1>
+        <img class="logo" src="./assets/images/node.png" />
+        <div class="text-center intro">
+          <p>
+            This is a Node.js-powered solution that streamlines the process,
+            letting you craft beautiful ReadMe Files with the efficiency of
+            Node.js, using Inquirer.
+          </p>
+        </div>
+      </section>
 
-        <section class="container top">
-            <h1 class=" title" id="readMe"> <i class="fa-brands fa-readme make-big" ></i>  <br>ReadMe Maker </h1>
-            <img class="logo" src="./assets/images/node.png">
-            <div class="text-center intro">
-              
-              <p> This is a simple App using Node.js to create a high quality ReadMe file for Projects</p>
-          </div>
-        </section>
+      <section class="container how" id="howTo">
+        <h2 class="mark subtitle" style="background-color: rgb(96, 171, 96)">
+          How to Use!
+        </h2>
+        <ul>
+          <li class="paragraph">Start by Cloning the Repo</li>
+          <ol class="link-li">
+            <li>
+              <a
+                href="https://github.com/8BitGinger/readmeMaker"
+                target="_blank"
+                class="link"
+                >VIEW REPO</a
+              >
+            </li>
+          </ol>
+          <h3>then</h3>
+          <li class="paragraph">
+            Navigate to the root folder in the terminal and run the following
+            command: <br />
+            <span class="code">npm i</span><br />
+            to install dependecies
+          </li>
+          <h3>then</h3>
+          <li class="paragraph">
+            Run the following command: <br />
+            <span class="code">npm run create</span><br />
+            and press Enter
+          </li>
+          <li class="paragraph">
+            This tool will guide you through a series of prompts, using
+            Inquirer, to gather information about your project.
+            <br /><br />Afterward, you'll see the completed ReadMe content in
+            the console and have it saved as a new file named 'newREADME.md'.
+          </li>
+        </ul>
+        <h2>It's that easy!</h2>
+      </section>
 
-        <section class="container how">
-            <h2 id="howTo" class="mark subtitle" style="background-color:rgb(96, 171, 96)">How to Use!</h2>
-            <ul>
-              <li class="paragraph"> 1 - Start by Cloning the Repo</li>
-                <ul>
-                  <li><a href="https://github.com/8BitGinger/readmeMaker" target="_blank" class="link">VIEW REPO</a></li>
-                </ul>
-              <li class="paragraph">Navigate to the root folder in the terminal</li>
-              <li class="paragraph">Type the following command: <br> <span class="code">npm run create</span><br> and press Enter</li>
-              <li class="paragraph">Follow the Prompts</li>
-              <li class="paragraph">Your personalized ReadMe will be saved as: <br> <span class="red">newREADME.md</span></li>
-          </ul>
-          <h2>It's that easy!</h2>
-        </section>
+      <section class="container pic">
+        <h2
+          id="howTo"
+          class="mark subtitle"
+          style="background-color: rgb(96, 171, 96)"
+        >
+          Screenshots
+        </h2>
+        <div class="row">
+          <img
+            id="screenshot"
+            alt="screenshot-demo"
+            class="screenshot"
+            src="./assets/images/screenshot-readmeDoc.png"
+          />
+          <img
+            id="screenshot"
+            alt="screenshot-readMe"
+            class="screenshot"
+            src="./assets/images/screenshot-readmeCode.png"
+          />
+        </div>
+      </section>
 
-        <section class="container pic">
-          <h2 id="howTo" class="mark subtitle" style="background-color:rgb(96, 171, 96)">Screenshots</h2>
-          <div class="row">
-            <img id="screenshot" alt="screenshot-demo" class="screenshot" src="./assets/images/screenshot-readmeDoc.png">
-            <img id="screenshot" alt="screenshot-readMe" class="screenshot" src="./assets/images/screenshot-readmeCode.png">
-          </div>
-      
-        </section>
+      <section class="container video">
+        <h2
+          id="video"
+          class="mark subtitle"
+          style="background-color: rgb(96, 171, 96)"
+        >
+          Video Demo
+        </h2>
 
-        <section class="container video">
-          <h2 id="video" class="mark subtitle" style="background-color:rgb(96, 171, 96)">Video Demo</h2>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BEgqgr3_CVs?si=ywx_bI7ktb4J-wZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="vid" allowfullscreen></iframe>
-          
-        </section>
-
-
-
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/BEgqgr3_CVs?si=ywx_bI7ktb4J-wZo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          class="vid"
+          allowfullscreen
+        ></iframe>
+      </section>
     </main>
-    
+
     <footer class="footer">
-     
-      <a href="https://ryanfann.netlify.app/" class="portfolio">Portfolio</a>
-    
-     </footer>
-        
+      <h1>
+        <a href="https://ryanfann.netlify.app/" class="portfolio"
+          >View My Portfolio</a
+        >
+      </h1>
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-<script src="./assets/js/script.js"></script>
-</body>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>

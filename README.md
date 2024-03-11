@@ -13,6 +13,7 @@ Ever wrestled with crafting a comprehensive, high-quality ReadMe file that showc
 
 1. [Usage](#usage)
 1. [Installation Code](#installation)
+1. [Technologies](#technologies)
 1. [Contributing](#contributing)
 1. [Screenshot](#screenshot)
 1. [License](#license)
@@ -56,6 +57,19 @@ This tool will guide you through a series of prompts to gather information about
 
 ---
 
+<a id="technologies"></a>
+
+## Technologies
+
+```
+ "dependencies": {
+    "badge-maker": "^3.3.1",
+    "inquirer": "8.2.4"
+  }
+```
+
+---
+
 <a id="contributing"></a>
 
 ## Contributing
@@ -85,7 +99,7 @@ N/A
 
 ## Tests
 
-none
+_none_
 
 ---
 
