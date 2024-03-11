@@ -1,32 +1,34 @@
-
 <a id="badges"></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-# Password Generator
+# HomeBase Realty
 
 ## Description
-A simple app designed to generate a random pass word  using JavaScript, For Loops, and Dom Manipulation.
 
-
+A simple Realty page website where sellers, renters can enter their properties to be listed.
 
 ## Table of Contents
+
 1. [Usage](#usage)
-2. [Installation Code](#installation)
-3. [Contributing](#contributing)
-4. [Screenshot](#screenshot)
-5. [License](#license)
-6. [Tests](#tests)
-7. [Links](#links)
-8. [Questions](#support)
+1. [Installation Code](#installation)
+1. [Technologies](#technologies)
+1. [Contributing](#contributing)
+1. [Screenshot](#screenshot)
+1. [License](#license)
+1. [Tests](#tests)
+1. [Links](#links)
+1. [Questions](#support)
 
 ---
 
 <a id="usage"></a>
+
 ## Usage
-Visit Deployed Page.  Select paramaters.  Copy your new password!
+
+go to live site
 
 <a id="installation"></a>
+
 ```
 none
 ```
@@ -34,51 +36,69 @@ none
 ---
 
 <a id="contributing"></a>
-## Contributing
 
+## Technologies
 
-
-<a id="screenshot"></a>
-## Screenshot
-![screenshot](./assets/images/screenshot-psgen)
+some
 
 ---
 
+<a id="contributing"></a>
+
+## Contributing
+
+me
+
+<a id="screenshot"></a>
+
+## Screenshot
+
+![screenshot](./assets/images/screenshot.png)
+
+---
 
 <a id="license"></a>
+
 ## License
+
 [MIT](url)
 
 ---
 
-
 <a id="tests"></a>
+
 ## Tests
+
 none
 
 ---
 
-
 <a id="links"></a>
+
 ## Links
 
 <div align="center">
 
-### [Repo Link](https://github.com/8BitGinger/passwordGenerator)
+### [Repo Link](repo)
 
-### [Deployed Link](https://8bitginger.github.io/passwordGenerator/)
+### [Deployed Link](live)
 
-### [Clone Link](none)
+### [Clone Link](clone)
 
 </div>
 
 ---
 
 <a id="support"></a>
-## Questions
-Reach out for Questions or Support here:
-### Email: 
-ryan.fann@gmail.com
-#### GitHub Username: 
-[8BitGinger](https://github.com/8BitGinger)
 
+## Questions
+
+Reach out for Questions or Support here:
+
+### Email:
+
+ryan.fann@gmail.com
+
+#### GitHub Username:
+
+[8BitGinger](github)

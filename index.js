@@ -57,6 +57,12 @@ const questions = [
   },
 
   {
+    type: 'input',
+    name: 'technologies',
+    message: 'What technologies were used?',
+  },
+
+  {
     type: 'list',
     name: 'license',
     message: 'Please select the your License.',

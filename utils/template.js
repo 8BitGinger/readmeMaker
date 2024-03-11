@@ -17,6 +17,7 @@ ${answers.description}
 
 1. [Usage](#usage)
 1. [Installation Code](#installation)
+1. [Technologies](#technologies)
 1. [Contributing](#contributing)
 1. [Screenshot](#screenshot)
 1. [License](#license)
@@ -35,6 +36,14 @@ ${answers.installation}
 \`\`\`
 ${answers.code}
 \`\`\`
+
+---
+
+<a id="contributing"></a>
+
+## Technologies
+
+${answers.technologies}
 
 ---
 

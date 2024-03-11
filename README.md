@@ -5,18 +5,20 @@
 
 ## Description
 
-A simple app using Node.js to create a high quality ReadMe file efficiently.
+#### _In today's fast-paced development world, efficiency matters!_
+
+Ever wrestled with crafting a comprehensive, high-quality ReadMe file that showcases your project's brilliance? <br><br> This is a Node.js-powered solution that streamlines the process, letting you craft beautiful ReadMe Files with the efficiency of Node.js, using Inquirer.
 
 ## Table of Contents
 
 1. [Usage](#usage)
-2. [Installation Code](#installation)
-3. [Contributing](#contributing)
-4. [Screenshot](#screenshot)
-5. [License](#license)
-6. [Tests](#tests)
-7. [Links](#links)
-8. [Questions](#support)
+1. [Installation Code](#installation)
+1. [Contributing](#contributing)
+1. [Screenshot](#screenshot)
+1. [License](#license)
+1. [Tests](#tests)
+1. [Links](#links)
+1. [Questions](#support)
 
 ---
 
@@ -24,9 +26,23 @@ A simple app using Node.js to create a high quality ReadMe file efficiently.
 
 ## Usage
 
-Download and Clone the Repo from the Clone Link below in the Links Section. Then run the following command in the Terminal:
+#### Download and Clone the Repo
+
+Clone Link in the <a href="#links">Links Section.</a> <br>
+
+#### _then_
+
+from the root directory run the following command:
 
 <a id="installation"></a>
+
+```
+npm i
+```
+
+#### _then_
+
+run the following command:
 
 ```
 npm run create
@@ -34,11 +50,9 @@ npm run create
 
 #### _then_
 
-Answer the Prompts to fill in your desired information. At the end you will see a console.log your read. You can then view the actual file under newREADME.md.
+This tool will guide you through a series of prompts to gather information about your project. <br><br>Afterward, you'll see the completed ReadMe content in the console and have it saved as a new file named 'newREADME.md'.
 
-<br>
-
-_Keep in mind that it will overwrite the contents of the previous file named newREADME.md. Enjoy!_
+##### _Keep in mind that it will overwrite the contents of the previous file named newREADME.md. Enjoy!_
 
 ---
 
