@@ -15,6 +15,8 @@
 
 Ever wrestled with crafting a comprehensive, high-quality ReadMe file that showcases your project's brilliance? <br><br> This is a Node.js-powered solution that streamlines the process, letting you craft beautiful ReadMe Files with the efficiency of Node.js, using Inquirer.
 
+---
+
 ## Table of Contents
 
 1. [Usage](#usage)
@@ -133,7 +135,7 @@ _none_
 
 ## Questions
 
-Reach out for Questions or Support here:
+_Reach out for Questions or Support here:_
 
 ### Email:
 

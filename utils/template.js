@@ -39,7 +39,7 @@ ${answers.code}
 
 ---
 
-<a id="contributing"></a>
+<a id="technologies"></a>
 
 ## Technologies
 

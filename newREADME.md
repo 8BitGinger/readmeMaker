@@ -1,11 +1,15 @@
+
 <a id="badges"></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# HomeBase Realty
+
+# HTML Showcase
 
 ## Description
 
-A simple Realty page website where sellers, renters can enter their properties to be listed.
+A showcase of HTML elements and Features that can be copied and pasted into other projects.  Styling is on the basic side to allow more custimzation later except for where neeeded.  Each page will have it's own CSS  and JS to make it easier to get the fully functional components.  Hope you enjoy!
+
+---
 
 ## Table of Contents
 
@@ -22,13 +26,11 @@ A simple Realty page website where sellers, renters can enter their properties t
 ---
 
 <a id="usage"></a>
-
 ## Usage
 
-go to live site
+First Clone the Repo from the Links section.  Then just copy and paste the desired component and related code to your project!
 
 <a id="installation"></a>
-
 ```
 none
 ```
@@ -39,66 +41,60 @@ none
 
 ## Technologies
 
-some
+add later
 
 ---
 
 <a id="contributing"></a>
-
 ## Contributing
 
 me
 
-<a id="screenshot"></a>
 
+<a id="screenshot"></a>
 ## Screenshot
 
-![screenshot](./assets/images/screenshot.png)
+![screenshot](./assets/images/screenshot)
 
 ---
 
-<a id="license"></a>
 
+<a id="license"></a>
 ## License
 
 [MIT](url)
 
 ---
 
-<a id="tests"></a>
 
+<a id="tests"></a>
 ## Tests
 
 none
 
 ---
 
-<a id="links"></a>
 
+<a id="links"></a>
 ## Links
 
 <div align="center">
 
-### [Repo Link](repo)
+### [Repo Link](live)
 
-### [Deployed Link](live)
+### [Deployed Link](deployed)
 
-### [Clone Link](clone)
+### [Clone Link](cloe)
 
 </div>
 
 ---
 
 <a id="support"></a>
-
 ## Questions
-
 Reach out for Questions or Support here:
-
-### Email:
-
+### Email: 
 ryan.fann@gmail.com
+#### GitHub Username: 
+[8BitGinger](https://github.com/8BitGinger/)
 
-#### GitHub Username:
-
-[8BitGinger](github)
