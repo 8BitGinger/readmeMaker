@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![logo](./assets/images/ReadMe-logo2.png)
+![logo](./assets/images/readmeMakerProject.jpg)
 
 </div>
 

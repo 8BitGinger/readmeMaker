@@ -18,21 +18,23 @@ ${answers.description}
 1. [Usage](#usage)
 1. [Installation Code](#installation)
 1. [Technologies](#technologies)
-1. [Contributing](#contributing)
 1. [Screenshot](#screenshot)
 1. [License](#license)
+1. [Contributing](#contributing)
 1. [Tests](#tests)
 1. [Links](#links)
-1. [Questions](#support)
+1. [Contact](#contact)
 
 ---
 
 <a id="usage"></a>
+
 ## Usage
 
 ${answers.installation}
 
 <a id="installation"></a>
+
 \`\`\`
 ${answers.code}
 \`\`\`
@@ -47,13 +49,35 @@ ${answers.technologies}
 
 ---
 
+
+<a id="license"></a>
+
+## License
+
+#### ${answers.license}
+
+${answers.licenseBadge}
+
+---
+
+
+<a id="tests"></a>
+
+## Tests
+
+${answers.tests}
+
+---
+
 <a id="contributing"></a>
+
 ## Contributing
 
 ${answers.contributing}
 
 
 <a id="screenshot"></a>
+
 ## Screenshot
 
 ![screenshot](./assets/images/${answers.screenshot})
@@ -61,23 +85,8 @@ ${answers.contributing}
 ---
 
 
-<a id="license"></a>
-## License
-
-[${answers.license}](url)
-
----
-
-
-<a id="tests"></a>
-## Tests
-
-${answers.tests}
-
----
-
-
 <a id="links"></a>
+
 ## Links
 
 <div align="center">
@@ -92,12 +101,18 @@ ${answers.tests}
 
 ---
 
-<a id="support"></a>
+<a id="contact"></a>
+
 ## Questions
-Reach out for Questions or Support here:
-### Email: 
+
+Contact Me Here:
+
+#### Email: 
+
 ${answers.email}
+
 #### GitHub Username: 
+
 [${answers.github}](${answers.gitprofile})
 
 `;
